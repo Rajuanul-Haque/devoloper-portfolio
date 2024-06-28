@@ -52,11 +52,24 @@ nav a{
 /* header-related-style */
 .header{
     background-color:#FFF8F3 ;
+    background-image:url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .banner{
-    padding: 25px 25px 25px 130px;
+    padding: 25px 25px 0px 180px;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .banner .profile-poto{
-width: 700px;
+width: 400px;
+}
+.banner-greeting{
+    font-size: 40px;
+    color: #474747;
+    margin-bottom: 0px;
+}
+.banner-contant{
+    max-width: 400px;
 }
