@@ -17,6 +17,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 180px;
 }
 .nav_title{
     font-size: 45px;
@@ -47,4 +48,15 @@ nav a{
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
+}
+/* header-related-style */
+.header{
+    background-color:#FFF8F3 ;
+}
+.banner{
+    padding: 25px 25px 25px 130px;
+    display: flex;
+}
+.banner .profile-poto{
+width: 700px;
 }
