@@ -1,46 +1,68 @@
 /* common shared style  */
-body{
+body {
     // <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 300 to 800
+    // <weight>: Use a value from 300 to 800
 
-.open-sans-<uniquifier> {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    .open-sans-<uniquifier> {
+        font-family: "Open Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+        font-variation-settings:
+            "wdth" 100;
+    }
 }
+
+.section-title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: normal;
+    text-transform:capitalize;
 }
+.section-description {
+    color: #757575;
+    text-align: center;
+    font-size: 15px;
+
+}
+
 /* nav related stye */
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0px 180px;
 }
-.nav_title{
+
+.nav_title {
     font-size: 45px;
-font-style: normal;
-font-weight: 800;}
-.primary_text_color{
-    color:#FD6E0A ;
+    font-style: normal;
+    font-weight: 800;
 }
-nav > ul{
+
+.primary_text_color {
+    color: #FD6E0A;
+}
+
+nav>ul {
     display: flex;
     align-items: center;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 50px;
 
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: #474747;
-    
+
 }
-.btn_primary{
+
+.btn_primary {
     background-color: #FD6E0A;
     border-radius: 5px;
     border: 0px;
@@ -49,27 +71,69 @@ nav a{
     font-weight: 700;
     padding: 15px 35px;
 }
+
 /* header-related-style */
-.header{
-    background-color:#FFF8F3 ;
-    background-image:url(../images/header_bg.png);
+.header {
+    background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: bottom right;
+    background-size: 600px;
 }
-.banner{
+
+.banner {
     padding: 25px 25px 0px 180px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.banner .profile-poto{
-width: 400px;
+
+.banner .profile-poto {
+    width: 400px;
 }
-.banner-greeting{
+
+.banner-greeting {
     font-size: 40px;
     color: #474747;
     margin-bottom: 0px;
 }
-.banner-contant{
+
+.banner-title {
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.banner-contant {
     max-width: 400px;
+}
+
+/* main section sta */
+/* about section s */
+.about {
+    padding: 120px;
+    background-color: #dab59b;
+    border-radius: 5px;
+    margin: 120px 0px;
+}
+main{
+    max-width: 1050px;
+    margin: 0 auto;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+.info-title{
+    color: #474747;
+    margin: 0;
+    padding: 0;
+}
+.info-description{
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
 }
