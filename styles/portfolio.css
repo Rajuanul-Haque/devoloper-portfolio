@@ -137,3 +137,10 @@ main{
     margin: 0;
     padding: 0;
 }
+#what{
+    padding: 25px 140px;
+    margin: 25px 140px;
+}
+.skills-contenner{
+    display: flex;
+}
