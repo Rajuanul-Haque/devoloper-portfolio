@@ -179,4 +179,11 @@ main section{
 }
 .downlode-cv{
     text-align: center;
+    margin-top: 40px;
+}
+footer{
+    display: flex;
+    background-color: #FFF8F3;
+    padding: 115px 190px;
+    margin-top: 80px;
 }
