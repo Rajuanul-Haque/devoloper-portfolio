@@ -75,21 +75,24 @@ nav a {
 /* header-related-style */
 .header {
     background-color: #FFF8F3;
-    background-image: url(../images/header_bg.png);
+    background-image: url(../images/header_bg.png),url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
-    background-size: 600px;
+    background-position: bottom right,left top ;
+/* background-size: 400px; */
 }
 
+
 .banner {
-    padding: 25px 25px 0px 180px;
+    padding: 100px 25px 0px 180px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 520px;;
 }
 
 .banner .profile-poto {
-    width: 400px;
+    width: 490px;
+height: 520px;
 }
 
 .banner-greeting {
@@ -193,7 +196,7 @@ footer{
     
 }
 .contact input[type="text"], .contact input[type="email"], textarea {
-display: block;
+display:block;
 margin-bottom:15px ;
 padding: 15px 30px ;
 color: #757575;
